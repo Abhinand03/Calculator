@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./st.css">
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body>
+        <div>
+            <body>
+                <div class="container">
+                    <div class="c-body">
+                        <div class="output">
+                            <input type="text" name="" id="display" class="form-control">
+            
+                        </div>
+            
+                        <div class="button-main">
+                            <div class="btn-cal">
+                                <button class="btn1 btn btn-danger" id="c" onclick="cl()">c</button>
+                                <button class="btn1 btn btn-success" id="/" onclick="Exp(event)">/</button>
+                                <button class="btn1 btn btn-success" id="*" onclick="Exp(event)">*</button>
+                                <button class="btn1 btn btn-success" id="-" onclick="Exp(event)">-</button>
+            
+                            </div>
+                            <div class="btn-cal">
+                                <button class="btn1 btn btn-primary" id="7" onclick="Exp(event)">7</button>
+                                <button class="btn1 btn btn-primary" id="8" onclick="Exp(event)">8</button>
+                                <button class="btn1 btn btn-primary" id="9" onclick="Exp(event)">9</button>
+                                <button class="btn1 bt3 btn btn-success" id="+" onclick="Exp(event)">+</button>
+            
+                            </div><div class="btn-cal">
+                                <button class="btn1 btn btn-primary" id="4" onclick="Exp(event)">4</button>
+                                <button class="btn1 btn btn-primary" id="5" onclick="Exp(event)">5</button>
+                                <button class="btn1 btn btn-primary" id="6" onclick="Exp(event)">6</button>
+                                
+            
+                            </div><div class="btn-cal">
+                                <button class="btn1 btn btn-primary" id="1" onclick="Exp(event)">1</button>
+                                <button class="btn1 btn btn-primary" id="2" onclick="Exp(event)">2</button>
+                                <button class="btn1 btn btn-primary" id="3" onclick="Exp(event)">3</button>
+                                <button class="btn1 bt3 btn btn-warning" id="=" onclick="result()">=</button>
+            
+                            </div><div class="btn-cal">
+                                <button class="btn1 bt4 btn btn-primary" id="0" onclick="Exp(event)">0</button>
+                                <button class="btn1 bt btn btn-primary" id="." onclick="Exp(event)">.</button>
+            
+                            </div>
+                        </div>
+                        
+            
+                        </div>
+                    </div>
+                    <button class="bt5  btn btn-primary" id="." onclick="back()">backSpace</button>
+
+                </div>
+                
+            </body>
+        </div>
+
+        <script src="./cal.js"></script>
+
+        
+    </body>
+</html>

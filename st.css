@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.c-body{
+    height: 540px;
+    width: 364px;
+    background-color: #F4D03F;
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+    
+
+    border-radius: 29px;
+    box-shadow: 4px 5px 35px 1pc;
+    margin-top: 75px;
+    box-shadow: 0px 0px 28px 1px;
+}
+
+
+.output{
+    width: 265px;
+    margin: auto;
+
+}
+#display{
+    position: relative;
+    margin: auto;
+    width: 258px;
+    height: 56px;
+    top: 25px;
+
+}
+.button-main{
+   
+    position: relative;
+    top: 75px;
+
+}
+.btn-cal{
+    
+    width: 257px;
+    margin: auto;
+
+
+}
+.btn1{
+    width: 50px;
+    height: 55px;
+    margin-left: 10px;
+    font-size: 28px;
+    margin-top: 6px;
+
+
+}
+
+.bt2{
+    height: 78px;
+    position: absolute;
+    margin-left: 14px;
+    font-size: 15px;
+
+}
+.bt3{
+    height: 113px;
+    position: absolute;
+    margin-left: 14px
+
+}
+.bt4{
+width: 114px;
+}
+.bt5{
+    position: relative;
+    left: 44%;
+    bottom: 90px;
+    height: 51px;
+    width: 160px;
+}
