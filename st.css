@@ -3,6 +3,10 @@
     justify-content: center;
 
 }
+body{
+    background-color:#348a3d;
+}
+
 .c-body{
     height: 540px;
     width: 364px;
